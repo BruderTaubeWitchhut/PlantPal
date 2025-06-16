@@ -1,76 +1,52 @@
-🌱 PlantPal – Smart Urban Plant Care System
-PlantPal is a smart, IoT-enabled plant care system designed to automate irrigation for urban gardens using real-time soil and weather data. Built using affordable, open-source hardware and integrated with the Blynk platform, it ensures efficient, data-driven watering to conserve water and promote healthy plant growth.
+# 🌿 PlantPal – Smart Irrigation for Urban Gardens
 
-🔧 Features
-🌡 DHT11 Sensor – Measures ambient temperature and humidity.
+**PlantPal** is a compact, IoT-based plant care device that automates watering using real-time **soil moisture**, **temperature**, **humidity**, and **weather forecasts**. Designed for urban households, it helps conserve water while ensuring healthy plant growth.
 
-🌱 Soil Moisture Sensor – Monitors moisture level in the soil.
+---
 
-☁️ Weather Forecast Integration – Pulls real-time weather data from Blynk Cloud to avoid watering before rain.
+## 🔧 Key Features
 
-💧 Automated Pump Control – Activates a water pump only when the plant needs water.
+* Soil moisture & DHT11 temperature-humidity monitoring
+* Weather-aware pump activation via **Blynk IoT**
+* Auto/manual watering through **Blynk app**
+* Compact, insertable design for plant pots
+* Energy- and water-efficient system
 
-📱 Blynk App Dashboard – Displays sensor data, alerts, and allows manual override.
+---
 
-🧠 How It Works
-The ESP8266 microcontroller reads soil and atmospheric data from sensors.
+## 🛠 Tech Stack
 
-The system checks weather forecasts via the Blynk IoT platform.
+* **Hardware:** ESP8266, DHT11, soil moisture sensor, relay, water pump
+* **Software:** Arduino IDE, Blynk app, weather API integration
 
-If the soil is dry and no rain is expected, the pump is triggered to water the plant.
+---
 
-Data is displayed in real time on the Blynk mobile app, with options for manual control.
+## ✅ Status
 
-🛠 Hardware Used
-ESP8266 NodeMCU
+* ✅ Functional prototype built and tested
+* 🔧 Final casing in progress
+* 📦 Preparing for small-scale deployment
 
-DHT11 Temperature & Humidity Sensor
+---
 
-Soil Moisture Sensor
+## 👥 Team
 
-Relay Module
+* **Tanmay S U** – Hardware
+* **Dyutikar G V** – Software & IoT
+* **Hridan Saikia** – UI/UX
+* *Looking for a business/marketing lead*
 
-Mini Water Pump
+---
 
-Power Supply (5V–12V)
+## 📈 Roadmap
 
-Jumper Wires, Breadboard (or PCB for final version)
+* Enclosure design & 3D printing
+* Pilot user testing
+* Listing on e-commerce platforms
+* Add light & fertilizer control (future)
 
-📲 Software & Tools
-Arduino IDE
+---
 
-Blynk IoT Platform (mobile app + cloud)
+## 📜 License
 
-Weather API (via Blynk)
-
-GitHub (for code management)
-
-🚀 Current Status
-✅ Prototype built and tested
-✅ Functional with real-time automation
-🔜 Final casing/enclosure in progress
-🔜 Preparing for pilot deployment and feedback
-
-👥 Team
-Tanmay S U – Hardware and electronics
-
-Dyutikar G V – Software development and IoT integration
-
-Hridan Saikia – UI/UX design via Blynk
-
-[Open Role] – Looking to onboard a team member for marketing and business development
-
-📦 Future Plans
-3D-printed casing for durable deployment
-
-Expand to smart garden kits for multiple plants
-
-Add fertilizer control and light monitoring in future versions
-
-List on online marketplaces (e.g., Amazon, Flipkart)
-
-🤝 Contributing
-We welcome contributions, suggestions, and collaborations! Feel free to fork, raise issues, or open pull requests to make PlantPal better.
-
-📜 License
-This project is open-source and available under the MIT License.
+MIT License
